@@ -1,0 +1,15 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+
+# Sensitive / local config
+terraform.tfvars
+*.pem
+*.csv
+.aws/
+
+# OS/editor
+.DS_Store
